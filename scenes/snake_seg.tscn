@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://dpyxe84lujnso"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_webor"]
+bg_color = Color(0.978956, 0.000514036, 0.927729, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(1, 0.713542, 0.725964, 1)
+border_blend = true
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[node name="SnakeSeg" type="Panel" groups=["segments"]]
+offset_right = 50.0
+offset_bottom = 50.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_webor")
